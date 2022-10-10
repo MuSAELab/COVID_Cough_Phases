@@ -11,6 +11,7 @@ import textgrid
 import feature_func as ffunc
 import librosa
 import soundfile as sf
+import pickle as pkl
 
 
 def feature_from_phase(audio:np.array,
@@ -125,3 +126,7 @@ if __name__ == '__main__':
                                                r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough',
                                                r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough_phase',
                                                16000)
+    
+    # feature_path = r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature'
+    # with open(os.path.join(feature_path,'smile_compare.pkl'), 'wb') as handle:
+    #     pkl.dump(smile_compare, handle, protocol=pkl.HIGHEST_PROTOCOL)
