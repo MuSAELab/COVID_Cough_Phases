@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.888004535147393 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 5.888004535147393 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5763132834590766 
+            text = "noise" 
+        intervals [2]:
+            xmin = 0.5763132834590766 
+            xmax = 1.0270078164074752 
+            text = "inhale" 
+        intervals [3]:
+            xmin = 1.0270078164074752 
+            xmax = 1.1128000925300956 
+            text = "compress" 
+        intervals [4]:
+            xmin = 1.1128000925300956 
+            xmax = 1.4831175402925239 
+            text = "cough" 
+        intervals [5]:
+            xmin = 1.4831175402925239 
+            xmax = 1.6736796582505715 
+            text = "noise" 
+        intervals [6]:
+            xmin = 1.6736796582505715 
+            xmax = 1.9011437155002504 
+            text = "cough" 
+        intervals [7]:
+            xmin = 1.9011437155002504 
+            xmax = 2.4093092298074943 
+            text = "noise" 
+        intervals [8]:
+            xmin = 2.4093092298074943 
+            xmax = 2.6240124021152247 
+            text = "inhale" 
+        intervals [9]:
+            xmin = 2.6240124021152247 
+            xmax = 2.882357662101672 
+            text = "compress" 
+        intervals [10]:
+            xmin = 2.882357662101672 
+            xmax = 3.144407729846034 
+            text = "cough" 
+        intervals [11]:
+            xmin = 3.144407729846034 
+            xmax = 3.2470918557323403 
+            text = "noise" 
+        intervals [12]:
+            xmin = 3.2470918557323403 
+            xmax = 3.4284560261289325 
+            text = "cough" 
+        intervals [13]:
+            xmin = 3.4284560261289325 
+            xmax = 4.4727521890785065 
+            text = "noise" 
+        intervals [14]:
+            xmin = 4.4727521890785065 
+            xmax = 4.760941647951216 
+            text = "cough" 
+        intervals [15]:
+            xmin = 4.760941647951216 
+            xmax = 4.853907720730482 
+            text = "noise" 
+        intervals [16]:
+            xmin = 4.853907720730482 
+            xmax = 5.065443687856654 
+            text = "cough" 
+        intervals [17]:
+            xmin = 5.065443687856654 
+            xmax = 5.888004535147393 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 5.888004535147393 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.888004535147393 
+            text = "6" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 5.888004535147393 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.888004535147393 
+            text = "2" 

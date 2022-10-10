@@ -1,0 +1,9 @@
+Some files were up-sampled to 16kHz, including these files would lead to biased results. Hence, we remove these files from the original dataset. The original files indexes are provided below:
+
+(*Notice that indexes start from 001 instead of 000)
+
+- training set:
+- development set:
+- test set (8 files): 197, 188, 127, 106, 064, 052, 041, 036
+
+When removing biased files from the original data folder, please follow the descending order (e.g., 197->188->...->036) so that the new recordings are synchronized with the new labels in the 'label' folder.

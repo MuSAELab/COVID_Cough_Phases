@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.56 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 3.56 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.538480508609694 
+            text = "inhale" 
+        intervals [2]:
+            xmin = 0.538480508609694 
+            xmax = 0.8448569065644732 
+            text = "compress" 
+        intervals [3]:
+            xmin = 0.8448569065644732 
+            xmax = 1.1502723157259296 
+            text = "cough" 
+        intervals [4]:
+            xmin = 1.1502723157259296 
+            xmax = 1.315671034583112 
+            text = "noise" 
+        intervals [5]:
+            xmin = 1.315671034583112 
+            xmax = 1.580018975092106 
+            text = "cough" 
+        intervals [6]:
+            xmin = 1.580018975092106 
+            xmax = 1.8178643606847438 
+            text = "noise" 
+        intervals [7]:
+            xmin = 1.8178643606847438 
+            xmax = 2.0874022774114342 
+            text = "cough" 
+        intervals [8]:
+            xmin = 2.0874022774114342 
+            xmax = 2.266801697386322 
+            text = "noise" 
+        intervals [9]:
+            xmin = 2.266801697386322 
+            xmax = 2.5124961323906247 
+            text = "cough" 
+        intervals [10]:
+            xmin = 2.5124961323906247 
+            xmax = 3.56 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 3.56 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.56 
+            text = "4" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 3.56 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.56 
+            text = "1" 

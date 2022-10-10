@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 6.28
+tiers? <exists>
+size = 3
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "type"
+		xmin = 0.0
+		xmax = 6.28
+		intervals: size = 19
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.2338
+				text = "silence"
+			intervals [2]:
+				xmin = 0.2338
+				xmax = 0.72328
+				text = "inhale"
+			intervals [3]:
+				xmin = 0.72328
+				xmax = 1.01445
+				text = "compress"
+			intervals [4]:
+				xmin = 1.01445
+				xmax = 1.33691
+				text = "cough"
+			intervals [5]:
+				xmin = 1.33691
+				xmax = 1.39743
+				text = "noise"
+			intervals [6]:
+				xmin = 1.39743
+				xmax = 1.70806
+				text = "cough"
+			intervals [7]:
+				xmin = 1.70806
+				xmax = 2.18206
+				text = "silence"
+			intervals [8]:
+				xmin = 2.18206
+				xmax = 2.55421
+				text = "inhale"
+			intervals [9]:
+				xmin = 2.55421
+				xmax = 2.87817
+				text = "compress"
+			intervals [10]:
+				xmin = 2.87817
+				xmax = 3.15329
+				text = "cough"
+			intervals [11]:
+				xmin = 3.15329
+				xmax = 3.26526
+				text = "noise"
+			intervals [12]:
+				xmin = 3.26526
+				xmax = 3.58919
+				text = "cough"
+			intervals [13]:
+				xmin = 3.58919
+				xmax = 3.86922
+				text = "silence"
+			intervals [14]:
+				xmin = 3.86922
+				xmax = 4.49443
+				text = "inhale"
+			intervals [15]:
+				xmin = 4.49443
+				xmax = 4.96162
+				text = "compress"
+			intervals [16]:
+				xmin = 4.96162
+				xmax = 5.23644
+				text = "cough"
+			intervals [17]:
+				xmin = 5.23644
+				xmax = 5.31858
+				text = "noise"
+			intervals [18]:
+				xmin = 5.31858
+				xmax = 5.62406
+				text = "cough"
+			intervals [19]:
+				xmin = 5.62406
+				xmax = 6.28
+				text = "silence"
+	item [2]:
+		class = "IntervalTier"
+		name = "numberofcough"
+		xmin = 0.0
+		xmax = 6.28
+		intervals: size = 1
+			intervals [1]:
+				xmin = 0.0
+				xmax = 6.28
+				text = "6"
+	item [3]:
+		class = "IntervalTier"
+		name = "numberofinhale"
+		xmin = 0.0
+		xmax = 6.28
+		intervals: size = 1
+			intervals [1]:
+				xmin = 0.0
+				xmax = 6.28
+				text = "3"

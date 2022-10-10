@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.826666666666667 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 6.826666666666667 
+        intervals: size = 25 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7100651399457236 
+            text = "noise" 
+        intervals [2]:
+            xmin = 0.7100651399457236 
+            xmax = 0.861199243990645 
+            text = "inhale" 
+        intervals [3]:
+            xmin = 0.861199243990645 
+            xmax = 1.1876861480987186 
+            text = "compress" 
+        intervals [4]:
+            xmin = 1.1876861480987186 
+            xmax = 1.5352176801215687 
+            text = "cough" 
+        intervals [5]:
+            xmin = 1.5352176801215687 
+            xmax = 1.7101424943731958 
+            text = "noise" 
+        intervals [6]:
+            xmin = 1.7101424943731958 
+            xmax = 2.082701996473687 
+            text = "cough" 
+        intervals [7]:
+            xmin = 2.082701996473687 
+            xmax = 2.2156440324391267 
+            text = "noise" 
+        intervals [8]:
+            xmin = 2.2156440324391267 
+            xmax = 2.439546408801973 
+            text = "cough" 
+        intervals [9]:
+            xmin = 2.439546408801973 
+            xmax = 2.6273041561297465 
+            text = "noise" 
+        intervals [10]:
+            xmin = 2.6273041561297465 
+            xmax = 2.8833924990947524 
+            text = "inhale" 
+        intervals [11]:
+            xmin = 2.8833924990947524 
+            xmax = 3.1660692492528457 
+            text = "compress" 
+        intervals [12]:
+            xmin = 3.1660692492528457 
+            xmax = 3.500952492474525 
+            text = "cough" 
+        intervals [13]:
+            xmin = 3.500952492474525 
+            xmax = 3.703864021053355 
+            text = "noise" 
+        intervals [14]:
+            xmin = 3.703864021053355 
+            xmax = 4.046255576339421 
+            text = "cough" 
+        intervals [15]:
+            xmin = 4.046255576339421 
+            xmax = 4.254634351491285 
+            text = "noise" 
+        intervals [16]:
+            xmin = 4.254634351491285 
+            xmax = 4.45789072717099 
+            text = "cough" 
+        intervals [17]:
+            xmin = 4.45789072717099 
+            xmax = 4.773828573820846 
+            text = "noise" 
+        intervals [18]:
+            xmin = 4.773828573820846 
+            xmax = 4.9935327806268885 
+            text = "inhale" 
+        intervals [19]:
+            xmin = 4.9935327806268885 
+            xmax = 5.278414653413104 
+            text = "compress" 
+        intervals [20]:
+            xmin = 5.278414653413104 
+            xmax = 5.598874929582427 
+            text = "cough" 
+        intervals [21]:
+            xmin = 5.598874929582427 
+            xmax = 5.756681722926026 
+            text = "noise" 
+        intervals [22]:
+            xmin = 5.756681722926026 
+            xmax = 6.0841389483566894 
+            text = "cough" 
+        intervals [23]:
+            xmin = 6.0841389483566894 
+            xmax = 6.26533843441542 
+            text = "noise" 
+        intervals [24]:
+            xmin = 6.26533843441542 
+            xmax = 6.48084447166466 
+            text = "cough" 
+        intervals [25]:
+            xmin = 6.48084447166466 
+            xmax = 6.826666666666667 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "number of cough" 
+        xmin = 0 
+        xmax = 6.826666666666667 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 6.826666666666667 
+            text = "9" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "number of inhale" 
+        xmin = 0 
+        xmax = 6.826666666666667 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 6.826666666666667 
+            text = "3" 

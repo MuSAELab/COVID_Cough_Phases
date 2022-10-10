@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.2426530612244897 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 3.2426530612244897 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2796191856012754 
+            text = "silence" 
+        intervals [2]:
+            xmin = 0.2796191856012754 
+            xmax = 0.818986089618518 
+            text = "inhale" 
+        intervals [3]:
+            xmin = 0.818986089618518 
+            xmax = 0.9886854392728114 
+            text = "compress" 
+        intervals [4]:
+            xmin = 0.9886854392728114 
+            xmax = 1.4277028931933857 
+            text = "cough" 
+        intervals [5]:
+            xmin = 1.4277028931933857 
+            xmax = 1.5119350514065077 
+            text = "noise" 
+        intervals [6]:
+            xmin = 1.5119350514065077 
+            xmax = 1.947598507721528 
+            text = "cough" 
+        intervals [7]:
+            xmin = 1.947598507721528 
+            xmax = 1.9932575599117486 
+            text = "noise" 
+        intervals [8]:
+            xmin = 1.9932575599117486 
+            xmax = 2.476602727355138 
+            text = "cough" 
+        intervals [9]:
+            xmin = 2.476602727355138 
+            xmax = 3.2426530612244897 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "number of cough" 
+        xmin = 0 
+        xmax = 3.2426530612244897 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.2426530612244897 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "number of inhale" 
+        xmin = 0 
+        xmax = 3.2426530612244897 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.2426530612244897 
+            text = "1" 

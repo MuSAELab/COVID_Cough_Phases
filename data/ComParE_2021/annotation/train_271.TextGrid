@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.72 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 3.72 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23250426274385982 
+            text = "silence" 
+        intervals [2]:
+            xmin = 0.23250426274385982 
+            xmax = 0.6312416693800443 
+            text = "noise" 
+        intervals [3]:
+            xmin = 0.6312416693800443 
+            xmax = 0.9972183185428148 
+            text = "cough" 
+        intervals [4]:
+            xmin = 0.9972183185428148 
+            xmax = 1.4460593741049015 
+            text = "inhale" 
+        intervals [5]:
+            xmin = 1.4460593741049015 
+            xmax = 1.6516524100036651 
+            text = "compress" 
+        intervals [6]:
+            xmin = 1.6516524100036651 
+            xmax = 2.028625266597139 
+            text = "cough" 
+        intervals [7]:
+            xmin = 2.028625266597139 
+            xmax = 2.3925715043201263 
+            text = "inhale" 
+        intervals [8]:
+            xmin = 2.3925715043201263 
+            xmax = 2.5788143647034665 
+            text = "compress" 
+        intervals [9]:
+            xmin = 2.5788143647034665 
+            xmax = 2.977858271650715 
+            text = "cough" 
+        intervals [10]:
+            xmin = 2.977858271650715 
+            xmax = 3.72 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 3.72 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.72 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 3.72 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.72 
+            text = "2" 

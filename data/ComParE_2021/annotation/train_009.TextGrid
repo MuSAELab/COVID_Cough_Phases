@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.28 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 5.28 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.44543370535714294 
+            text = "noise" 
+        intervals [2]:
+            xmin = 0.44543370535714294 
+            xmax = 1.0450719068877552 
+            text = "inhale" 
+        intervals [3]:
+            xmin = 1.0450719068877552 
+            xmax = 1.177485803002742 
+            text = "compress" 
+        intervals [4]:
+            xmin = 1.177485803002742 
+            xmax = 1.6118532206632656 
+            text = "cough" 
+        intervals [5]:
+            xmin = 1.6118532206632656 
+            xmax = 2.0928434069233193 
+            text = "inhale" 
+        intervals [6]:
+            xmin = 2.0928434069233193 
+            xmax = 2.2191005295648862 
+            text = "compress" 
+        intervals [7]:
+            xmin = 2.2191005295648862 
+            xmax = 2.7782727359693884 
+            text = "cough" 
+        intervals [8]:
+            xmin = 2.7782727359693884 
+            xmax = 3.2034130087869497 
+            text = "inhale" 
+        intervals [9]:
+            xmin = 3.2034130087869497 
+            xmax = 3.3265774996998076 
+            text = "compress" 
+        intervals [10]:
+            xmin = 3.3265774996998076 
+            xmax = 3.8833981886120106 
+            text = "cough" 
+        intervals [11]:
+            xmin = 3.8833981886120106 
+            xmax = 5.28 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 5.28 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.28 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 5.28 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.28 
+            text = "3" 

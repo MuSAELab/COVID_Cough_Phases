@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 7.4
+tiers? <exists>
+size = 3
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "type"
+		xmin = 0.0
+		xmax = 7.4
+		intervals: size = 20
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.23122
+				text = "silence"
+			intervals [2]:
+				xmin = 0.23122
+				xmax = 0.69216
+				text = "inhale"
+			intervals [3]:
+				xmin = 0.69216
+				xmax = 1.0988
+				text = "compress"
+			intervals [4]:
+				xmin = 1.0988
+				xmax = 1.36022
+				text = "cough"
+			intervals [5]:
+				xmin = 1.36022
+				xmax = 1.44593
+				text = "noise"
+			intervals [6]:
+				xmin = 1.44593
+				xmax = 1.64364
+				text = "cough"
+			intervals [7]:
+				xmin = 1.64364
+				xmax = 1.73999
+				text = "noise"
+			intervals [8]:
+				xmin = 1.73999
+				xmax = 2.02115
+				text = "cough"
+			intervals [9]:
+				xmin = 2.02115
+				xmax = 2.31685
+				text = "silence"
+			intervals [10]:
+				xmin = 2.31685
+				xmax = 3.07713
+				text = "inhale"
+			intervals [11]:
+				xmin = 3.07713
+				xmax = 3.26875
+				text = "compress"
+			intervals [12]:
+				xmin = 3.26875
+				xmax = 3.6239
+				text = "cough"
+			intervals [13]:
+				xmin = 3.6239
+				xmax = 3.69615
+				text = "noise"
+			intervals [14]:
+				xmin = 3.69615
+				xmax = 3.97736
+				text = "cough"
+			intervals [15]:
+				xmin = 3.97736
+				xmax = 4.29509
+				text = "silence"
+			intervals [16]:
+				xmin = 4.29509
+				xmax = 5.11907
+				text = "inhale"
+			intervals [17]:
+				xmin = 5.11907
+				xmax = 5.45913
+				text = "compress"
+			intervals [18]:
+				xmin = 5.45913
+				xmax = 5.97059
+				text = "cough"
+			intervals [19]:
+				xmin = 5.97059
+				xmax = 6.21823
+				text = "cough"
+			intervals [20]:
+				xmin = 6.21823
+				xmax = 7.4
+				text = "silence"
+	item [2]:
+		class = "IntervalTier"
+		name = "numberofcough"
+		xmin = 0.0
+		xmax = 7.4
+		intervals: size = 1
+			intervals [1]:
+				xmin = 0.0
+				xmax = 7.4
+				text = "7"
+	item [3]:
+		class = "IntervalTier"
+		name = "numberofinhale"
+		xmin = 0.0
+		xmax = 7.4
+		intervals: size = 1
+			intervals [1]:
+				xmin = 0.0
+				xmax = 7.4
+				text = "3"

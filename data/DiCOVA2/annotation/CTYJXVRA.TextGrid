@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.27734693877551 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 8.27734693877551 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0358477648423416 
+            text = "noise" 
+        intervals [2]:
+            xmin = 1.0358477648423416 
+            xmax = 1.7367710288317553 
+            text = "inhale" 
+        intervals [3]:
+            xmin = 1.7367710288317553 
+            xmax = 1.94043005219417 
+            text = "compress" 
+        intervals [4]:
+            xmin = 1.94043005219417 
+            xmax = 2.275199372308517 
+            text = "cough" 
+        intervals [5]:
+            xmin = 2.275199372308517 
+            xmax = 2.654781077493601 
+            text = "noise" 
+        intervals [6]:
+            xmin = 2.654781077493601 
+            xmax = 3.0907065559707636 
+            text = "inhale" 
+        intervals [7]:
+            xmin = 3.0907065559707636 
+            xmax = 3.7682585325249436 
+            text = "compress" 
+        intervals [8]:
+            xmin = 3.7682585325249436 
+            xmax = 4.09154505934572 
+            text = "cough" 
+        intervals [9]:
+            xmin = 4.09154505934572 
+            xmax = 5.571397907934329 
+            text = "noise" 
+        intervals [10]:
+            xmin = 5.571397907934329 
+            xmax = 5.905772278687431 
+            text = "cough" 
+        intervals [11]:
+            xmin = 5.905772278687431 
+            xmax = 8.27734693877551 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 8.27734693877551 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.27734693877551 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 8.27734693877551 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.27734693877551 
+            text = "2" 

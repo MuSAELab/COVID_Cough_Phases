@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.888004535147393 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 5.888004535147393 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6405322519918942 
+            text = "noise" 
+        intervals [2]:
+            xmin = 0.6405322519918942 
+            xmax = 1.148658992626911 
+            text = "inhale" 
+        intervals [3]:
+            xmin = 1.148658992626911 
+            xmax = 1.5449264615862695 
+            text = "compress" 
+        intervals [4]:
+            xmin = 1.5449264615862695 
+            xmax = 1.9305508855784428 
+            text = "cough" 
+        intervals [5]:
+            xmin = 1.9305508855784428 
+            xmax = 2.0443971337794054 
+            text = "noise" 
+        intervals [6]:
+            xmin = 2.0443971337794054 
+            xmax = 2.5369117112414514 
+            text = "inhale" 
+        intervals [7]:
+            xmin = 2.5369117112414514 
+            xmax = 2.9581648013336412 
+            text = "compress" 
+        intervals [8]:
+            xmin = 2.9581648013336412 
+            xmax = 3.3161049731229593 
+            text = "cough" 
+        intervals [9]:
+            xmin = 3.3161049731229593 
+            xmax = 3.5626735381988097 
+            text = "noise" 
+        intervals [10]:
+            xmin = 3.5626735381988097 
+            xmax = 3.8105670181541607 
+            text = "inhale" 
+        intervals [11]:
+            xmin = 3.8105670181541607 
+            xmax = 4.355094393982496 
+            text = "compress" 
+        intervals [12]:
+            xmin = 4.355094393982496 
+            xmax = 4.705573589675282 
+            text = "cough" 
+        intervals [13]:
+            xmin = 4.705573589675282 
+            xmax = 5.888004535147393 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 5.888004535147393 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.888004535147393 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 5.888004535147393 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.888004535147393 
+            text = "3" 

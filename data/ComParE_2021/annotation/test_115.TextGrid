@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 8.68
+tiers? <exists>
+size = 3
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "type"
+		xmin = 0.0
+		xmax = 8.68
+		intervals: size = 18
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.45415
+				text = "noise"
+			intervals [2]:
+				xmin = 0.45415
+				xmax = 0.97974
+				text = "inhale"
+			intervals [3]:
+				xmin = 0.97974
+				xmax = 1.11042
+				text = "compress"
+			intervals [4]:
+				xmin = 1.11042
+				xmax = 1.40958
+				text = "cough"
+			intervals [5]:
+				xmin = 1.40958
+				xmax = 1.55106
+				text = "noise"
+			intervals [6]:
+				xmin = 1.55106
+				xmax = 1.89101
+				text = "cough"
+			intervals [7]:
+				xmin = 1.89101
+				xmax = 2.53579
+				text = "silence"
+			intervals [8]:
+				xmin = 2.53579
+				xmax = 3.37171
+				text = "inhale"
+			intervals [9]:
+				xmin = 3.37171
+				xmax = 3.58363
+				text = "compress"
+			intervals [10]:
+				xmin = 3.58363
+				xmax = 3.98541
+				text = "cough"
+			intervals [11]:
+				xmin = 3.98541
+				xmax = 4.10706
+				text = "noise"
+			intervals [12]:
+				xmin = 4.10706
+				xmax = 4.44226
+				text = "cough"
+			intervals [13]:
+				xmin = 4.44226
+				xmax = 5.99749
+				text = "noise"
+			intervals [14]:
+				xmin = 5.99749
+				xmax = 6.48665
+				text = "inhale"
+			intervals [15]:
+				xmin = 6.48665
+				xmax = 6.63805
+				text = "compress"
+			intervals [16]:
+				xmin = 6.63805
+				xmax = 7.10358
+				text = "cough"
+			intervals [17]:
+				xmin = 7.10358
+				xmax = 7.49121
+				text = "cough"
+			intervals [18]:
+				xmin = 7.49121
+				xmax = 8.68
+				text = "silence"
+	item [2]:
+		class = "IntervalTier"
+		name = "numberofcough"
+		xmin = 0.0
+		xmax = 8.68
+		intervals: size = 1
+			intervals [1]:
+				xmin = 0.0
+				xmax = 8.68
+				text = "6"
+	item [3]:
+		class = "IntervalTier"
+		name = "numberofinhale"
+		xmin = 0.0
+		xmax = 8.68
+		intervals: size = 1
+			intervals [1]:
+				xmin = 0.0
+				xmax = 8.68
+				text = "3"

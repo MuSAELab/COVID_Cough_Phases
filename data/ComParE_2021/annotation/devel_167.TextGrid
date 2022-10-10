@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.24 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 5.24 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25446455695127823 
+            text = "silence" 
+        intervals [2]:
+            xmin = 0.25446455695127823 
+            xmax = 1.3636400174476828 
+            text = "noise" 
+        intervals [3]:
+            xmin = 1.3636400174476828 
+            xmax = 1.6820424698460559 
+            text = "cough" 
+        intervals [4]:
+            xmin = 1.6820424698460559 
+            xmax = 2.563972880573221 
+            text = "noise" 
+        intervals [5]:
+            xmin = 2.563972880573221 
+            xmax = 2.8468099374888722 
+            text = "cough" 
+        intervals [6]:
+            xmin = 2.8468099374888722 
+            xmax = 3.3643375387239107 
+            text = "noise" 
+        intervals [7]:
+            xmin = 3.3643375387239107 
+            xmax = 3.566143368440758 
+            text = "inhale" 
+        intervals [8]:
+            xmin = 3.566143368440758 
+            xmax = 3.798641795652643 
+            text = "compress" 
+        intervals [9]:
+            xmin = 3.798641795652643 
+            xmax = 4.058709871908839 
+            text = "cough" 
+        intervals [10]:
+            xmin = 4.058709871908839 
+            xmax = 5.24 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 5.24 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.24 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 5.24 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.24 
+            text = "1" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.655986394557823 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 6.655986394557823 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4427063553605999 
+            text = "noise" 
+        intervals [2]:
+            xmin = 1.4427063553605999 
+            xmax = 1.8815885690195884 
+            text = "cough" 
+        intervals [3]:
+            xmin = 1.8815885690195884 
+            xmax = 2.3394914477325535 
+            text = "cough" 
+        intervals [4]:
+            xmin = 2.3394914477325535 
+            xmax = 2.652007464771265 
+            text = "noise" 
+        intervals [5]:
+            xmin = 2.652007464771265 
+            xmax = 3.0868123580425153 
+            text = "inhale" 
+        intervals [6]:
+            xmin = 3.0868123580425153 
+            xmax = 3.4083634916680072 
+            text = "compress" 
+        intervals [7]:
+            xmin = 3.4083634916680072 
+            xmax = 4.115168439628909 
+            text = "cough" 
+        intervals [8]:
+            xmin = 4.115168439628909 
+            xmax = 4.807435196590223 
+            text = "noise" 
+        intervals [9]:
+            xmin = 4.807435196590223 
+            xmax = 5.24724917148404 
+            text = "cough" 
+        intervals [10]:
+            xmin = 5.24724917148404 
+            xmax = 6.655986394557823 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "number of cough" 
+        xmin = 0 
+        xmax = 6.655986394557823 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 6.655986394557823 
+            text = "4" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "number of inhale" 
+        xmin = 0 
+        xmax = 6.655986394557823 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 6.655986394557823 
+            text = "1" 
