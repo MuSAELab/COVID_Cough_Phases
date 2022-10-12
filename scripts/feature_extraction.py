@@ -63,7 +63,36 @@ def feature_from_audio(audio_path:str,
     assert np.nan not in ot, "NaN in features"
     
     return ot
+
+
+def baseline_compare(tg_folder_path:str,
+                     ad_folder_path:str,
+                     split:str):
     
+    ot = []
+    
+    for file in sorted(glob.glob(os.path.join(tg_folder_path, '%s_*.TextGrid'%(split))),key=ffunc.numericalSort):
+    
+        subject_id = os.path.split(file)[1][:-9]
+        audio_path = os.path.join(ad_folder_path,'%s.wav'%(subject_id))
+        ot.append(ffunc.get_SMILE(audio_file=audio_path))
+    
+    return ot
+
+
+def baseline_dicova2(tg_folder_path:str,
+                     ad_folder_path:str):
+    
+    ot = []
+    
+    for file in sorted(glob.glob(os.path.join(tg_folder_path, '*.TextGrid')),key=ffunc.numericalSort):
+
+        subject_id = os.path.split(file)[1][:-9]
+        audio_path = os.path.join(ad_folder_path,'%s.flac'%(subject_id))
+        ot.append(ffunc.get_SMILE(audio_file=audio_path))
+
+    return ot
+
 
 def feature_extraction_compare(tg_folder_path:str,
                                ad_folder_path:str,
@@ -128,5 +157,24 @@ if __name__ == '__main__':
                                                16000)
     
     # feature_path = r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature'
-    # with open(os.path.join(feature_path,'smile_compare.pkl'), 'wb') as handle:
-    #     pkl.dump(smile_compare, handle, protocol=pkl.HIGHEST_PROTOCOL)
+    # with open(os.path.join(feature_path,'smile_dicova2.pkl'), 'wb') as handle:
+    #     pkl.dump(smile_dicova2, handle, protocol=pkl.HIGHEST_PROTOCOL)
+    
+    baseline_compare_train = baseline_compare(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\ComParE_2021\annotation',
+                                              r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\ComPare\Cough\wav_new',
+                                              'train')
+    
+    baseline_compare_devel = baseline_compare(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\ComParE_2021\annotation',
+                                              r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\ComPare\Cough\wav_new',
+                                              'devel')
+    
+    baseline_compare_test = baseline_compare(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\ComParE_2021\annotation',
+                                              r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\ComPare\Cough\wav_new',
+                                              'test')
+    
+    baseline_dicova = baseline_dicova2(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\DiCOVA2\annotation',
+                                       r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough')
+    
+    baseline_c = np.concatenate((baseline_compare_train,
+                                 baseline_compare_devel,
+                                 baseline_compare_test),axis=0)
