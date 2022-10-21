@@ -2,7 +2,8 @@
 """
 Created on Thu Sep  8 20:54:45 2022
 
-@author: richa
+@author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
 """
 
 import numpy as np
@@ -210,11 +211,11 @@ def draw_roc(num_rep:int,results_list:list):
     
     
     fig.show()
-    # pio.write_image(fig,
-    #                 r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\TASLP_2021\log\roc_2.jpeg',
-    #                 format = 'jpeg',
-    #                 width=800, 
-    #                 height=800,
-    #                 scale=6)
+    pio.write_image(fig,
+                    r'YOUR_OWN_PATH',
+                    format = 'jpeg',
+                    width=800, 
+                    height=800,
+                    scale=6)
     
     return 0
