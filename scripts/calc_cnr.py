@@ -2,7 +2,12 @@
 """
 Created on Fri Oct 14 18:21:32 2022
 
-@author: richa
+@author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
+"""
+
+"""
+This script is used for calculating cough-to-nosie ratio (CNR).
 """
 import os,glob
 import numpy as np
@@ -127,41 +132,4 @@ if __name__ == '__main__':
     cnr_d = cnr_dicova2(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\DiCOVA2\annotation',
                         r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough',
                         16000)
-    
-    cnr_all = np.concatenate((cnr_c,cnr_d),axis=0)
-    cnr_all_df = pd.DataFrame(cnr_all)
-    cnr_all_df['label'] = label
-    cnr_all_df.columns = ['cnr','label']
-    pos_idx = cnr_all_df.index[cnr_all_df['label'] == 1].tolist()
-    neg_idx = cnr_all_df.index[cnr_all_df['label'] == 0].tolist()
-    
-    cnr_c_df = pd.DataFrame(cnr_c)
-    cnr_c_df['label'] = label_c
-    cnr_c_df.columns = ['cnr','label']
-    pos_idx = cnr_c_df.index[cnr_c_df['label'] == 1].tolist()
-    neg_idx = cnr_c_df.index[cnr_c_df['label'] == 0].tolist()
-    
-    cnr_d_df = pd.DataFrame(cnr_d)
-    cnr_d_df['label'] = label_d
-    cnr_d_df.columns = ['cnr','label']
-    pos_idx = cnr_d_df.index[cnr_d_df['label'] == 1].tolist()
-    neg_idx = cnr_d_df.index[cnr_d_df['label'] == 0].tolist()
-    
-    """ number of cough per second per recording """
-    plt.figure(dpi=300)
-    sns.histplot(cnr_all_df[(cnr_all_df['label']==1) & (cnr_all_df['cnr']>-20)],
-                 x='cnr',
-                 stat='density',
-                 color = 'red',
-                 kde = True)
-    
-    sns.histplot(cnr_all_df[(cnr_all_df['label']==0) & (cnr_all_df['cnr']>-20)],
-                 x='cnr',
-                 stat='density',
-                 color = 'blue',
-                 kde = True)
-    plt.legend(labels=['Positive','Negative'])
-    
-    scipy.stats.ttest_ind(cnr_d_df[(cnr_d_df['label']==0)]['cnr'],
-                          cnr_d_df[(cnr_d_df['label']==1)]['cnr'],
-                          equal_var=False)
+   
