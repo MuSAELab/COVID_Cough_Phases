@@ -125,11 +125,11 @@ def cnr_dicova2(tg_folder_path:str,
 
 if __name__ == '__main__':
     
-    cnr_c = cnr_compare_all(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\ComParE_2021\annotation',
-                            r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\ComPare\Cough\wav_new',
+    cnr_c = cnr_compare_all(r'ROOT_PATH\COVID_Cough_Phases\data\ComParE_2021\annotation',
+                            r'PATH_TO_COMPARE_AUDIO_FOLDER',
                             16000)
     
-    cnr_d = cnr_dicova2(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\DiCOVA2\annotation',
-                        r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough',
+    cnr_d = cnr_dicova2(r'ROOT_PATH\GitHub\COVID_Cough_Phases\data\DiCOVA2\annotation',
+                        r'PATH_TO_DICOVA2_AUDIO_FOLDER',
                         16000)
    
