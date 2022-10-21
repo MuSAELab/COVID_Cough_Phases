@@ -9,9 +9,9 @@ You can find a detailed instruction in ```Instructions.md```. We have included a
 
 ## Where do I get access to the original recordings and labels?
 For data privacy purposes, we cannot share the cough sound data in this repository. But the sound files as well as the corresponding COVID-19 labels can be obtained upon approval from the organizers of ComParE and DiCOVA2 challenges. The contact info as well as details about these challenges can be found in the following papers: <br />
-A summary of the ComParE challenge: https://arxiv.org/abs/2202.08981
-The parental dataset of ComParE (Cambridge sound database): https://openreview.net/forum?id=9KArJb4r5ZQ
-DiCOVA2 challenge: https://arxiv.org/abs/2110.01177
+A summary of the ComParE challenge: https://arxiv.org/abs/2202.08981 <br />
+The parental dataset of ComParE (Cambridge sound database): https://openreview.net/forum?id=9KArJb4r5ZQ <br />
+DiCOVA2 challenge: https://arxiv.org/abs/2110.01177 
 
 ## How to generate results shown in the paper?
 If you are only interested in reproducing the results shown in this paper, we encourage you to simply run the  ```covid_prediction.py``` from inside of the ```scripts``` folder. Try different features stored in the ```feature``` folder as well as their combinations, you should be able to get the same results.
