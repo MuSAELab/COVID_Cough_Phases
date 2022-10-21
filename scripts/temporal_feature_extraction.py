@@ -3,12 +3,13 @@
 Created on Fri Aug 13 17:49:56 2021
 
 @author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
 """
-
 
 """
 Sanity check of annotations and extract temporal features
 """
+
 import textgrid
 import os,re,glob
 import numpy as np
