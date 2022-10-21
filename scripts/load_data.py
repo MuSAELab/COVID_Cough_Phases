@@ -2,7 +2,12 @@
 """
 Created on Thu Oct  6 11:02:51 2022
 
-@author: richa
+@author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
+"""
+
+"""
+Scripts used for loading annotation files, labels, as well as save and load .pkl files.
 """
 
 import os,re,glob
