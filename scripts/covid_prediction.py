@@ -224,7 +224,7 @@ def c_to_d(feature_c,
         scaler = sklearn.preprocessing.StandardScaler()
         X_train = scaler.fit_transform(x_train)
         X_test = scaler.transform(x_test)
-        pca = PCA(n_components=200)
+        pca = PCA(n_components=300)
         pca.fit(X_train)
         X_train = pca.transform(X_train)
         X_test = pca.transform(X_test)
@@ -354,44 +354,29 @@ def d_to_c(feature_d,
 
 if __name__ == "__main__":
     
-    # smile_c = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_compare.pkl')
-    # smile_d = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_dicova2.pkl')
-    # temporal_c = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\temporal_c.pkl')
-    # temporal_d = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\temporal_d.pkl')
-    # smile_in_cou_c = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_in_cou_c.pkl')
-    # smile_in_cou_d = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_in_cou_d.pkl')
-    # ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'smile_in_cou_d', smile_in_cou_d)
-    # smile_all_c = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_all_c.pkl')
-    # smile_all_d = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_all_d.pkl')
-    # ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'smile_all_d', smile_all_d)
-    # smile_in_tem_c = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_in_tem_c.pkl')
-    # ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'smile_in_tem_c', smile_in_tem_c)
-    smile_cou_tem_c = np.concatenate((smile_c[:,1,:],temporal_c),axis=1)
-    # ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'smile_cou_tem_c', smile_cou_tem_c)
-    # smile_in_tem_d = ld.load_feature(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature\smile_in_tem_d.pkl')
-    # ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'smile_in_tem_d', smile_in_tem_d)
-    # smile_cou_tem_d = np.concatenate((smile_d[:,1,:],temporal_d),axis=1)
-    # ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'smile_cou_tem_d', smile_cou_tem_d)
-    baseline_tem_c = np.concatenate((baseline_c,temporal_c),axis=1)
-    baseline_tem_d = np.concatenate((baseline_d,temporal_d),axis=1)
-    ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'baseline_tem_c', baseline_tem_c)
-    ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'baseline_tem_d', baseline_tem_d)
+    # load feature from the 'feature' folder
+    smile_c = ld.load_feature(r'ROOT_PATH\COVID_Cough_Phases\feature\smile_compare.pkl')
+    smile_d = ld.load_feature(r'ROOT_PATH\GitHub\COVID_Cough_Phases\feature\smile_dicova2.pkl')
     
-    auc_final,_ = eva_compare(smile_cou_tem_c,
+    # task-1: within-dataset test
+    auc_final_c,_ = eva_compare(smile_cou_tem_c,
                               label_c,
                               'single_clf',
                               ['svm'])
     
-    # auc_final,_ = eva_dicova2(smile_in_tem_d,
-    #                           label_d,
-    #                           'single_clf',
-    #                           ['svm'])
+    auc_final_d,_ = eva_dicova2(smile_in_tem_d,
+                              label_d,
+                              'single_clf',
+                              ['svm'])
     
+    # task-2: cross-dataset test
+    # t2.1: train on compare test on dicova2
     auc_final,_ = c_to_d(baseline_tem_c,baseline_tem_d,
                           label_c,label_d,
                           'single_clf',
                           ['svm'])
     
+    # t2.2: train on dicova2 test on compare
     auc_final,_ = d_to_c(baseline_tem_d,baseline_tem_c,
                           label_d,label_c,
                           'single_clf',['svm'])
