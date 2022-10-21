@@ -2,7 +2,12 @@
 """
 Created on Fri Oct  7 12:53:15 2022
 
-@author: richa
+@author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
+"""
+
+"""
+This script is used for openSMILE features extraction from separate cough phases. The extracted features are already stored in the \feature folder.
 """
 
 import os,glob
