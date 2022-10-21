@@ -9,6 +9,7 @@ import os,re,glob
 import numpy as np
 import pandas as pd
 import textgrid
+import pickle as pkl
 
 def numericalSort(value):
     
@@ -58,3 +59,25 @@ def load_data_dicova(label_path:str,
     label = np.concatenate(label).ravel()
     
     return tg,name,label
+
+
+def save_data(data_path,data_name,data):
+    
+    if not os.path.exists(data_path):
+        os.makedirs(data_path)
+        
+    # Store data (serialize)
+    with open(os.path.join(data_path,'%s.pkl'%(data_name)), 'wb') as handle:
+        pkl.dump(data, handle, protocol=pkl.HIGHEST_PROTOCOL)
+    
+    print("--------")
+    print('Data saved in '+data_path)
+    
+    return 0
+
+def load_feature(feature_path:str):
+    
+    with open(feature_path, 'rb') as f:
+        data = pkl.load(f)
+    
+    return data

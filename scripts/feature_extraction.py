@@ -12,6 +12,7 @@ import feature_func as ffunc
 import librosa
 import soundfile as sf
 import pickle as pkl
+import load_data as ld
 
 
 def feature_from_phase(audio:np.array,
@@ -40,7 +41,8 @@ def feature_from_phase(audio:np.array,
         
     return ot
 
-
+    
+    
 def feature_from_audio(audio_path:str,
                        fs:int,
                        ant_path:str,
@@ -172,9 +174,12 @@ if __name__ == '__main__':
                                               r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\ComPare\Cough\wav_new',
                                               'test')
     
-    baseline_dicova = baseline_dicova2(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\DiCOVA2\annotation',
-                                       r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough')
+    baseline_d = baseline_dicova2(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\data\DiCOVA2\annotation',
+                                  r'C:\Users\richa\OneDrive\desktop\PROJECTS\COVID\Dicova\Second_DiCOVA_Challenge_Dev_Data_Release\Second_DiCOVA_Challenge_Dev_Data_Release\AUDIO\cough')
     
     baseline_c = np.concatenate((baseline_compare_train,
                                  baseline_compare_devel,
                                  baseline_compare_test),axis=0)
+    
+    ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'baseline_c', baseline_c)
+    ld.save_data(r'C:\Users\richa\OneDrive\files\GitHub\COVID_Cough_Phases\feature', 'baseline_d', baseline_d)

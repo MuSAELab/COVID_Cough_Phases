@@ -44,6 +44,7 @@ def get_stamp(ant_path:str):
     phase_stamps['inhale_list'] = []
     phase_stamps['compress_list'] = []
     phase_stamps['cough_list'] = []
+    phase_stamps['noise_list'] = []
     
     for z in tg_segment[0]:
         
@@ -53,7 +54,10 @@ def get_stamp(ant_path:str):
             phase_stamps['compress_list'].append([z.minTime,z.maxTime])
         if(z.mark=="cough"):
             phase_stamps['cough_list'].append([z.minTime,z.maxTime])
-    
+        if(z.mark=="noise"):
+            phase_stamps['noise_list'].append([z.minTime,z.maxTime])
+        
+        
     return phase_stamps
     
 
