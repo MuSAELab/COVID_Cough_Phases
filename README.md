@@ -1,4 +1,5 @@
-# What does this repo contain?
+# Segmented phases from COVID-19 cough recordings
+## What does this repo contain?
 This repo contains: <br />
 1. Cough phase annotation files of ComParE and DiCOVA2 cough recordings.
 2. Scripts to reproduce results shown in our paper **On the importance of different cough phases for COVID-19 detection**.
