@@ -2,10 +2,14 @@
 """
 Created on Mon Oct 10 14:39:22 2022
 
-@author: richa
+@author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
 """
 
-# %% Performance test
+"""
+This script is used for feature evaluation. Results are shown in the system performance table of the paper.
+"""
+
 from sklearn.model_selection import train_test_split
 import sklearn
 import ML_func
