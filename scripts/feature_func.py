@@ -2,14 +2,13 @@
 """
 Created on Fri Oct  7 08:46:02 2022
 
-@author: richa
+@author: Yi Zhu
+@e-mail: Yi.Zhu@inrs.ca
 """
 
 
 """ 
-Given the path of an audio file and its corresponding annotation file, 
-segment the audio into chunks, extract acoustic features from each chunk, then
-calculate LLD across chunks.
+Scripts used for segmenting cough recordings.
 """
 
 import re
