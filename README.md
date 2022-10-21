@@ -27,4 +27,4 @@ For more details, you can refer to our paper **"On the importance of different c
 We would like to thank the organizers of DiCOVA2 and ComParE challenges for collecting and sharing the sound data. The aforementioned organizations do not bear any responsibility for the analysis and results presented in our paper. All results and interpretation only represent the view of the authors. We also thank our annotators Zack and Hong for spending their time on the annotation!
 
 ## Author and contact info
-This repo is created by Yi Zhu in Oct,2022. If you have any questions, feel free to contact at ```Yi.Zhu@inrs.ca```.
+This repo is created by Yi Zhu in Oct,2022. If you have any questions, feel free to contact at **Yi.Zhu@inrs.ca**.
