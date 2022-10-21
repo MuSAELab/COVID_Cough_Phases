@@ -2,7 +2,7 @@
 ## What does this repo contain?
 This repo contains: <br />
 1. Cough phase annotation files of ComParE and DiCOVA2 cough recordings.
-2. Scripts to reproduce results shown in our paper **On the importance of different cough phases for COVID-19 detection**.
+2. Scripts to reproduce results shown in our paper **"On the importance of different cough phases for COVID-19 detection"**.
 
 ## How to access and use the annotation file?
 You can find a detailed instruction in ```Instructions.md```. We have included an example showing you how to import files and segment recordings into phases.
@@ -21,7 +21,7 @@ For generating the acoustic features, check ```acoustic_feature_extraction.py```
 For generating the temporal features (and visualize histograms, etc.), check ```temporal_feature_extraction.py```.
 
 ## Reference
-For more details, you can refer to our paper **On the importance of different cough phases for COVID-19 detection**. If you are using the annotation files or the scripts in this repo, please make a reference to this paper.
+For more details, you can refer to our paper **"On the importance of different cough phases for COVID-19 detection"**. If you are using the annotation files or the scripts in this repo, please make a reference to this paper.
 
 ## Acknowledgement and disclaimer
 We would like to thank the organizers of DiCOVA2 and ComParE challenges for collecting and sharing the sound data. The aforementioned organizations do not bear any responsibility for the analysis and results presented in our paper. All results and interpretation only represent the view of the authors. We also thank our annotators Zack and Hong for spending their time on the annotation!
