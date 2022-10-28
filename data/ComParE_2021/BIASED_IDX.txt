@@ -6,4 +6,4 @@ Some files were up-sampled to 16kHz, including these files would lead to biased 
 - development set:
 - test set (8 files): 197, 188, 127, 106, 064, 052, 041, 036
 
-When removing biased files from the original data folder, please follow the descending order (e.g., 197->188->...->036) so that the new recordings are synchronized with the new labels in the 'label' folder.
+When removing biased files from the original data folder, please follow the descending order (e.g., 197->188->...->036). Remember to also remove these files from the label files to ensure the data-label consistency.
