@@ -1,4 +1,8 @@
 # Segmented phases from COVID-19 cough recordings
+
+## Overview and background
+Cough is an important symptom of numerous respiratory diseases, including COVID-19. While different cough phases (i.e., inhalation, compression, and expulsion) have been shown to be related to different pathological origins, existing cough-based COVID-19 detection systems rely on the entire cough recording, thus such phase-related characteristics are overlooked. In this study, our aim is two-fold. First, we have annotated over 1,250 cough recordings from two publicly-available cough sound databases, thus providing the research community with fine-grained cough phase labels. Next, we extract a number of temporal and acoustic features from each cough phase and test their usefulness and complementarity for COVID-19 detection. Experiments show the importance of cough phase segmentation, not only for improved COVID-19 detection, but also for the development of models that are interpretable and can better generalize across datasets.
+
 ## What does this repo contain?
 This repo contains: <br />
 1. Cough phase annotation files of ComParE and DiCOVA2 cough recordings.
