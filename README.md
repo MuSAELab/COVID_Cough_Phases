@@ -4,7 +4,7 @@ This repo contains: <br />
 1. Cough phase annotation files of ComParE and DiCOVA2 cough recordings.
 2. Scripts to reproduce results shown in our paper **"On the importance of different cough phases for COVID-19 detection"**, which can be found here: https://www.techrxiv.org/articles/preprint/On_the_importance_of_different_cough_phases_for_COVID-19_detection/21382176/1
 
-## How to access and use the annotation file?
+## How to access, visualize, and/or use the annotation file to segment cough recordings?
 You can find a detailed instruction in ```Instructions.md```. We have included an example showing you how to import files and segment recordings into phases.
 
 ## Where do I get access to the original recordings and labels?
