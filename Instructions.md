@@ -3,7 +3,7 @@ This document will introduce how to use the cough annotation files.<br />
 
 ## Dependencies
 -Programming language: Our current version only supports **Python** 3. <br />
--Python packages: Textgrid module for importing .TextGrid files, which can be found at [https://github.com/kylebgorman/textgrid].
+-Python packages: Textgrid module for importing .TextGrid files, which can be found at [https://github.com/kylebgorman/textgrid].<br />
 -Visaulization tool: .TextGrid files can be also imported to PRAAT ([https://www.fon.hum.uva.nl/praat/]) for visualization with the raw audio file.
 
 ## How to visualize
