@@ -5,7 +5,7 @@ This repo contains: <br />
 2. Scripts to reproduce results shown in our paper **"On the importance of different cough phases for COVID-19 detection"**, which can be found here: https://www.techrxiv.org/articles/preprint/On_the_importance_of_different_cough_phases_for_COVID-19_detection/21382176/1
 
 ## How to access, visualize, and/or use the annotation file to segment cough recordings?
-You can find a detailed instruction in ```Instructions.md```. We have included an example showing you how to import files and segment recordings into phases.
+You can find a detailed instruction in ```Instructions.md```. We have included an example showing you how to import files, visualize them with PRAAT, and segment recordings into phases.
 
 ## Where do I get access to the original recordings and labels?
 For data privacy purposes, we cannot share the cough sound data in this repository. But the sound files as well as the corresponding COVID-19 labels can be obtained upon approval from the organizers of ComParE and DiCOVA2 challenges. The contact info as well as details about these challenges can be found in the following papers: <br />
