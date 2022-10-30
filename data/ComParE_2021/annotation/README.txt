@@ -10,7 +10,7 @@ Goal: To annotate each .wav recording to label different sound types, including:
 	- cough (the exhalation period)
 	- inhale (the inhalation period that usually happens before cough)
 	- compress (the preparation stage that is usually between inhalation and cough)
-	- throatclear (throat clear sound)
+	- other (other articulatory sound)
 	- silence (silence part in the recording)
 	- noise (noise part in the recording)
 
