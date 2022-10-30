@@ -1,1 +1,9 @@
+Some files were up-sampled to 16kHz, including these files would lead to biased results. Hence, we remove these files from the original dataset. The original files indexes are provided below:
 
+(*Notice that indexes start from 001 instead of 000)
+
+- training set: 285, 279, 260, 228, 176, 127, 118, 111, 084, 080, 056, 033, 029
+- development set: 230, 225, 191, 141, 122, 118, 033, 017, 014
+- test set: 197, 188, 127, 106, 064, 052, 041, 036
+
+The aforementioend samples were removed from the original dataset, and the rest samples were re-indexed and annotated.
