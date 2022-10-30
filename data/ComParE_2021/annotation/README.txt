@@ -30,7 +30,7 @@ Steps: Praat is used for annotation
 
 -----------------------------
 
-ComParE cough annotations (biased recordings removed from training and development set):
+ComParE cough annotations (biased recordings removed):
 training set -> 273
 devel set -> 222
-test set -> 208
+test set -> 200
