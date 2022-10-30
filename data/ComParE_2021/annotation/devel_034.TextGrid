@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 10 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.42667357224850827 
+            text = "inhale" 
+        intervals [2]:
+            xmin = 0.42667357224850827 
+            xmax = 0.7787599107601738 
+            text = "compress" 
+        intervals [3]:
+            xmin = 0.7787599107601738 
+            xmax = 1.3149028135738832 
+            text = "cough" 
+        intervals [4]:
+            xmin = 1.3149028135738832 
+            xmax = 1.8863119404668354 
+            text = "inhale" 
+        intervals [5]:
+            xmin = 1.8863119404668354 
+            xmax = 2.321531613230691 
+            text = "compress" 
+        intervals [6]:
+            xmin = 2.321531613230691 
+            xmax = 2.8284378271592616 
+            text = "cough" 
+        intervals [7]:
+            xmin = 2.8284378271592616 
+            xmax = 3.464678443779962 
+            text = "throatclear" 
+        intervals [8]:
+            xmin = 3.464678443779962 
+            xmax = 3.8600059063573884 
+            text = "cough" 
+        intervals [9]:
+            xmin = 3.8600059063573884 
+            xmax = 6.652549577605957 
+            text = "other" 
+        intervals [10]:
+            xmin = 6.652549577605957 
+            xmax = 10 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 10 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 10 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 10 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 10 
+            text = "2" 
