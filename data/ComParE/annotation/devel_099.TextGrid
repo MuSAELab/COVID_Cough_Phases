@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.08 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13476031234178293 
+            text = "silence" 
+        intervals [2]:
+            xmin = 0.13476031234178293 
+            xmax = 0.718203244466801 
+            text = "noise" 
+        intervals [3]:
+            xmin = 0.718203244466801 
+            xmax = 0.9572206153566873 
+            text = "cough" 
+        intervals [4]:
+            xmin = 0.9572206153566873 
+            xmax = 1.116347037120143 
+            text = "noise" 
+        intervals [5]:
+            xmin = 1.116347037120143 
+            xmax = 1.3723944397017485 
+            text = "cough" 
+        intervals [6]:
+            xmin = 1.3723944397017485 
+            xmax = 1.5944724617286248 
+            text = "noise" 
+        intervals [7]:
+            xmin = 1.5944724617286248 
+            xmax = 1.8435777602407364 
+            text = "cough" 
+        intervals [8]:
+            xmin = 1.8435777602407364 
+            xmax = 2.08 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.08 
+            text = "3" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.08 
+            text = "0" 

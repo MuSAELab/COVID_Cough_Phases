@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.8948125 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "type" 
+        xmin = 0 
+        xmax = 7.8948125 
+        intervals: size = 25 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.6975267098909357 
+            text = "noise" 
+        intervals [2]:
+            xmin = 1.6975267098909357 
+            xmax = 2.0224726980441363 
+            text = "cough" 
+        intervals [3]:
+            xmin = 2.0224726980441363 
+            xmax = 2.081112967983492 
+            text = "noise" 
+        intervals [4]:
+            xmin = 2.081112967983492 
+            xmax = 2.378036493947776 
+            text = "cough" 
+        intervals [5]:
+            xmin = 2.378036493947776 
+            xmax = 2.4561440365612044 
+            text = "noise" 
+        intervals [6]:
+            xmin = 2.4561440365612044 
+            xmax = 2.6426568932671586 
+            text = "cough" 
+        intervals [7]:
+            xmin = 2.6426568932671586 
+            xmax = 2.7407798566756774 
+            text = "noise" 
+        intervals [8]:
+            xmin = 2.7407798566756774 
+            xmax = 3.2067629833153135 
+            text = "inhale" 
+        intervals [9]:
+            xmin = 3.2067629833153135 
+            xmax = 3.3880812461504988 
+            text = "compress" 
+        intervals [10]:
+            xmin = 3.3880812461504988 
+            xmax = 3.7688500823468325 
+            text = "cough" 
+        intervals [11]:
+            xmin = 3.7688500823468325 
+            xmax = 3.8411278637296893 
+            text = "noise" 
+        intervals [12]:
+            xmin = 3.8411278637296893 
+            xmax = 4.143394903895805 
+            text = "cough" 
+        intervals [13]:
+            xmin = 4.143394903895805 
+            xmax = 4.235339060439032 
+            text = "noise" 
+        intervals [14]:
+            xmin = 4.235339060439032 
+            xmax = 4.39101245298731 
+            text = "cough" 
+        intervals [15]:
+            xmin = 4.39101245298731 
+            xmax = 4.545403063703678 
+            text = "noise" 
+        intervals [16]:
+            xmin = 4.545403063703678 
+            xmax = 5.0829683402174455 
+            text = "inhale" 
+        intervals [17]:
+            xmin = 5.0829683402174455 
+            xmax = 5.3147519383095805 
+            text = "compress" 
+        intervals [18]:
+            xmin = 5.3147519383095805 
+            xmax = 5.755976707095281 
+            text = "cough" 
+        intervals [19]:
+            xmin = 5.755976707095281 
+            xmax = 5.875737389434217 
+            text = "noise" 
+        intervals [20]:
+            xmin = 5.875737389434217 
+            xmax = 6.217457175501392 
+            text = "cough" 
+        intervals [21]:
+            xmin = 6.217457175501392 
+            xmax = 6.309664793251321 
+            text = "noise" 
+        intervals [22]:
+            xmin = 6.309664793251321 
+            xmax = 6.579776420482209 
+            text = "cough" 
+        intervals [23]:
+            xmin = 6.579776420482209 
+            xmax = 6.747626995512216 
+            text = "noise" 
+        intervals [24]:
+            xmin = 6.747626995512216 
+            xmax = 6.894183094605581 
+            text = "cough" 
+        intervals [25]:
+            xmin = 6.894183094605581 
+            xmax = 7.8948125 
+            text = "noise" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "numberofcough" 
+        xmin = 0 
+        xmax = 7.8948125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 7.8948125 
+            text = "10" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "numberofinhale" 
+        xmin = 0 
+        xmax = 7.8948125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 7.8948125 
+            text = "2" 
